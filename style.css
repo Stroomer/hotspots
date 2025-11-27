@@ -1,0 +1,20 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#nachtwacht {
+  position: relative;
+  display: block;
+}
+
+#highlight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none; /* important! */
+  background: rgba(251, 0, 0, 0.4); /* 30% black for example */
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
